@@ -1,7 +1,7 @@
 .container{
     background-color: #DEE6F4;
     height: 795px;
-    width: 1440px;
+    width: 100%;
 }
 .container-2{
     display: flex;
