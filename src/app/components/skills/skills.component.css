@@ -1,0 +1,183 @@
+h1{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 150px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+	
+}
+.container{
+    background: #DEE6F4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.container-container{
+    display: flex;
+
+}
+.icon{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+.icon img{
+	
+	width: 60px;
+	height: 60px;
+}
+li{ /*style the li tag*/
+	list-style-type: none;
+	font-family: sans-serif;
+}
+
+.skills{ /*style the text*/
+	width: 500px;
+	margin: 60px auto;
+	color: rgb(0, 0, 0);
+
+    background: #83A0D4;
+    font-family: 'Poppins', sans-serif;
+	border-radius: 10px;
+	padding: 10px;
+}
+
+.skills li{ /*set margin of li*/
+	margin: 20px 15px;
+}
+
+.bar{ /*style the bar*/
+	background-color: #353b48;
+	display: block;
+	height: 3px;
+	border: 1px solid rgba(0,0,0,0.3);
+	border-radius: 3px;
+	overflow: hidden;
+	box-shadow: 0 0 10px #2187e7b3;
+}
+
+.bar span{ /*style the span tag*/
+	height: 3px;
+	float: left;
+	background-color: #c25ee0;
+}
+
+.html{ /*set skills and animation of html*/
+	width: 90%;
+	animation: html 2s;
+}
+
+.css{ /*set skills and animation of css*/
+	width: 80%;
+	animation: css 2s;
+}
+
+.javascript{ /*set skills and animation of javascript*/
+	width: 60%;
+	animation: javascript 2s;
+}
+
+.java{ /*set skills and animation of jquery*/
+	width: 70%;
+	animation: java 2s;
+}
+.angular{ /*set skills and animation of html*/
+	width: 70%;
+	animation: angular 2s;
+}
+
+.mysql{ /*set skills and animation of css*/
+	width: 60%;
+	animation: mysql 2s;
+}
+
+.typescript{ /*set skills and animation of javascript*/
+	width: 60%;
+	animation: typescript 2s;
+}
+
+.git{ /*set skills and animation of jquery*/
+	width: 50%;
+	animation: git 2s;
+}
+
+@keyframes html{ /*animate html skills*/
+	0%{
+		width: 0%;
+	}
+
+	100%{
+		width: 90%;
+	}
+}
+
+@keyframes css{ /*animate css skills*/
+	0%{
+		width: 0%;
+	}
+
+	100%{
+		width: 80%;
+	}
+}
+
+@keyframes javascript{ /*animate javascript skills*/
+	0%{
+		width: 0%;
+	}
+
+	100%{
+		width: 60%;
+	}
+}
+
+@keyframes java{ /*animate jquery skills*/
+	0%{
+		width: 0%;
+	}
+
+	100%{
+		width: 70%;
+	}
+}
+@keyframes angular{ /*animate html skills*/
+	0%{
+		width: 0%;
+	}
+
+	100%{
+		width: 70%;
+	}
+}
+
+@keyframes mysql{ /*animate css skills*/
+	0%{
+		width: 0%;
+	}
+
+	100%{
+		width: 60%;
+	}
+}
+
+@keyframes typescript{ /*animate javascript skills*/
+	0%{
+		width: 0%;
+	}
+
+	100%{
+		width: 60%;
+	}
+}
+
+@keyframes git{ /*animate jquery skills*/
+	0%{
+		width: 0%;
+	}
+
+	100%{
+		width: 50%;
+	}
+}

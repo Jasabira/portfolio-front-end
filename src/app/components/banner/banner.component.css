@@ -1,0 +1,27 @@
+.div-banner{
+    height: 760px;
+    width: 1440px;
+    display: flex;
+    align-items: center;
+}
+.container{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    margin-left: 200px;
+}
+.container h1{
+    font-family: 'WindSong', cursive;
+    font-size: 100px;
+    color: #3c156c;
+}
+.container h2{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 150px;
+    margin-top: -50px;
+}
+img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
