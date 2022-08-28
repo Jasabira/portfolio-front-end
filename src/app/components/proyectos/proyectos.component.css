@@ -24,6 +24,8 @@ img{
     height: 250px;
     width: auto;
     margin-left: 20px;
+    border: solid 1px #471f61;
+    border-radius: 10px;
 }
 h1{
     font-family: 'Bebas Neue', cursive;
